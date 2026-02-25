@@ -2,6 +2,9 @@
   "name": "iconsax",
   "description": "iconsax for react and react native",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "workspaces": {
     "packages": [
       "packages/*",
