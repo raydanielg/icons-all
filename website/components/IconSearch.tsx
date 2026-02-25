@@ -1,4 +1,3 @@
-import { SearchNormal } from 'iconsax-reactjs'
 import React, { useState, useCallback } from 'react'
 import { useDebounce } from '../hooks'
 import { searchStore } from '../store'
@@ -14,12 +13,12 @@ export const IconSearch = () => {
   useDebounce(() => SetQuery(search), 300, [search])
   return (
     <div className="h-10 bg-card rounded-xl flex items-center px-3">
-      <SearchNormal size={18} color="#eee" />
+      <span className="text-xs text-gray-200">Zerixaicons (vzr)</span>
       <input
         className="bg-transparent px-2 py-2 w-24 sm:w-40"
         value={search}
         onChange={onChangeInput}
-        placeholder="search icons..."
+        placeholder="search zerixaicons..."
         type="text"
       />
     </div>

@@ -40,7 +40,7 @@ export const Header = () => {
       </div>
       <div className="flex flex-col items-center my-36">
         <h1 className="text-4xl text-center md:text-6xl font-bold flex-row break-words">
-          ICONSAX for React and React Native
+          Zerixaicons (vzr) for React and React Native
         </h1>
 
         <div className="flex-auto flex space-x-3 text-xs md:text-sm h-11 mt-7">
