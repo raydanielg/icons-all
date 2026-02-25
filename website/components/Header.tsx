@@ -7,7 +7,7 @@ export const Header = () => {
     <div className="py-8 container m-auto">
       <div className="top-header text-xs text-gray-400 md:text-gray-300  flex flex-col md:flex-row gap-2 justify-center items-center md:justify-around">
         <span className="">
-          ©️ iconsax
+          ©️ vzr
           <a
             className="mx-1 border-b border-primary"
             target="_blank"
@@ -20,21 +20,21 @@ export const Header = () => {
             className="mx-1 border-b border-primary"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/lusaxweb/iconsax"
+            href="https://github.com/raydanielg/icons-all.git"
           >
-            github page
+            github page (vzr)
           </a>
         </span>
         <span className="flex items-center justify-center ">
-          Website Designed and built with
-          <Heart variant="Bold" size={16} color="red" className="mx-1" /> by
+          Built by Zerixa Technologies (vzr) with
+          <Heart variant="Bold" size={16} color="red" className="mx-1" />
           <a
             className="mx-1 border-b border-primary"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/rendinjast"
+            href="https://github.com/raydanielg/icons-all.git"
           >
-            Erfan Khadivar
+            Zerixa Technologies
           </a>
         </span>
       </div>
