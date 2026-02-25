@@ -13,7 +13,7 @@ export const IconSearch = () => {
   useDebounce(() => SetQuery(search), 300, [search])
   return (
     <div className="h-10 bg-card rounded-xl flex items-center px-3">
-      <span className="text-xs text-gray-200">Zerixaicons (vzr)</span>
+      <span className="text-xs text-gray-200">Zerixaicons</span>
       <input
         className="bg-transparent px-2 py-2 w-24 sm:w-40"
         value={search}

@@ -7,7 +7,7 @@ export const Header = () => {
     <div className="py-8 container m-auto">
       <div className="top-header text-xs text-gray-400 md:text-gray-300  flex flex-col md:flex-row gap-2 justify-center items-center md:justify-around">
         <span className="">
-          ©️ vzr
+          &copy; Zerixa
           <a
             className="mx-1 border-b border-primary"
             target="_blank"
@@ -20,19 +20,19 @@ export const Header = () => {
             className="mx-1 border-b border-primary"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/raydanielg/icons-all.git"
+            href="https://github.com/Zerixa-technologies"
           >
-            github page (vzr)
+            github page
           </a>
         </span>
         <span className="flex items-center justify-center ">
-          Built by Zerixa Technologies (vzr) with
+          Built by Zerixa Technologies with
           <Heart variant="Bold" size={16} color="red" className="mx-1" />
           <a
             className="mx-1 border-b border-primary"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/raydanielg/icons-all.git"
+            href="https://github.com/Zerixa-technologies"
           >
             Zerixa Technologies
           </a>
@@ -40,13 +40,14 @@ export const Header = () => {
       </div>
       <div className="flex flex-col items-center my-36">
         <h1 className="text-4xl text-center md:text-6xl font-bold flex-row break-words">
-          Zerixaicons (vzr) for React and React Native
+          Zerixaicons for React and React Native
         </h1>
 
         <div className="flex-auto flex space-x-3 text-xs md:text-sm h-11 mt-7">
           {/* <button className="px-6 text-white transition-colors duration-150 bg-bg h-full rounded-full text-sm font-normal focus:shadow-outline border-2 border-border">
             iconsax-reactjs npm
           </button> */}
+          <RainbowButton>Get Started &zwj;&#x270C;</RainbowButton>
           <RainbowButton>Get Started ✌️</RainbowButton>
           <div className="text-white flex justify-center items-center transition-colors duration-150 bg-bg h-full rounded-full text-sm font-normal focus:shadow-outline border-2 border-border">
             <a
