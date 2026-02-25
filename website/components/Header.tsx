@@ -47,7 +47,6 @@ export const Header = () => {
           {/* <button className="px-6 text-white transition-colors duration-150 bg-bg h-full rounded-full text-sm font-normal focus:shadow-outline border-2 border-border">
             iconsax-reactjs npm
           </button> */}
-          <RainbowButton>Get Started &zwj;&#x270C;</RainbowButton>
           <RainbowButton>Get Started ✌️</RainbowButton>
           <div className="text-white flex justify-center items-center transition-colors duration-150 bg-bg h-full rounded-full text-sm font-normal focus:shadow-outline border-2 border-border">
             <a
