@@ -5568,6 +5568,11 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
+"iconsax-reactjs@npm:iconsax-reactjs@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/iconsax-reactjs/-/iconsax-reactjs-0.0.8.tgz#5481e1b33183e2b3d52b110936c5419814278084"
+  integrity sha512-cb+uTMxbkSFNbu8ZclX7BWQVfOWQt8+m/PsDjnsm/H+mcYrnfTYMjHxiof1FB43k7UAgt1ds+0oFeMVKdqyslw==
+
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -8349,9 +8354,9 @@ rollup-plugin-uglify@^6.0.4:
     uglify-js "^3.4.9"
 
 rollup@^2.56.3:
-  version "2.58.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.58.0.tgz#a643983365e7bf7f5b7c62a8331b983b7c4c67fb"
-  integrity sha512-NOXpusKnaRpbS7ZVSzcEXqxcLDOagN6iFS8p45RkoiMqPHDLwJm758UF05KlMoCRbLBTZsPOIa887gZJ1AiXvw==
+  version "2.80.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.80.0.tgz#a82efc15b748e986a7c76f0f771221b1fa108a2c"
+  integrity sha512-cIFJOD1DESzpjOBl763Kp1AH7UE/0fcdHe6rZXUdQ9c50uvgigvW97u3IcSeBwOkgqL/PXPBktBCh0KEu5L8XQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
